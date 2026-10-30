@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ELAVATE CREWS | FASTag Store</title>
+<style>
+:root{--navy:#101b2d;--gold:#f5b942;--ink:#172033;--muted:#687386;--bg:#f5f7fb}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;color:var(--ink);background:var(--bg)}.wrap{max-width:1100px;margin:auto;padding:0 20px}
+header,footer{background:var(--navy);color:white;padding:18px 0}.nav,.foot{display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap}.brand{font-weight:900;letter-spacing:1.5px;font-size:21px}.brand span{color:var(--gold)}
+a{color:inherit;text-decoration:none}.btn{display:inline-block;background:var(--gold);color:#182338;padding:12px 17px;border:0;border-radius:10px;font-weight:bold;cursor:pointer}
+.hero{padding:65px 0;color:white;background:linear-gradient(120deg,#101b2d,#24466b)}.hero h1{font-size:clamp(38px,6vw,62px);margin:12px 0}.hero p{max-width:620px;line-height:1.7;color:#dbe5f1}.eyebrow{color:var(--gold);font-weight:bold;letter-spacing:2px;font-size:12px;text-transform:uppercase}
+section{padding:55px 0}.head{margin-bottom:25px}.head h2{font-size:32px;margin:8px 0}.head p,.muted{color:var(--muted);line-height:1.6}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:white;border:1px solid #e2e8f0;border-radius:16px;padding:22px;display:flex;flex-direction:column;min-height:220px}.logo{width:50px;height:50px;border-radius:13px;background:#edf2f9;display:grid;place-items:center;font-weight:900;margin-bottom:14px}.card p{color:var(--muted);line-height:1.5;font-size:14px;flex:1}.card button{width:100%}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.step,.paybox{background:white;border:1px solid #e2e8f0;border-radius:15px;padding:20px}.step p{color:var(--muted);line-height:1.5;font-size:14px}
+form{background:white;border:1px solid #e2e8f0;border-radius:17px;padding:24px;display:grid;grid-template-columns:1fr 1fr;gap:15px}label{font-weight:bold;font-size:13px;display:block;margin-bottom:7px}input,select,textarea{width:100%;padding:12px;border:1px solid #d5deea;border-radius:9px;font:inherit}.full{grid-column:1/-1}.note{background:#fff7e6;border:1px solid #f0d9a6;border-radius:12px;padding:15px;margin-top:18px;font-size:13px;line-height:1.6;color:#614a1a}
+footer p{color:#c3cede;font-size:13px;line-height:1.6}
+@media(max-width:700px){.grid,.steps,form{grid-template-columns:1fr}.full{grid-column:auto}.hero{padding:48px 0}}
+</style></head>
+<body>
+<header><div class="wrap nav"><div class="brand">ELAVATE <span>CREWS</span></div><a class="btn" href="https://wa.me/918754032606?text=Hello%20ELAVATE%20CREWS%2C%20I%20need%20a%20FASTag" target="_blank" rel="noopener">WhatsApp Us</a></div></header>
+<section class="hero"><div class="wrap"><div class="eyebrow">Multi-bank FASTag store</div><h1>Drive smarter.<br><span style="color:#f5b942">Travel easier.</span></h1><p>Explore FASTag options from our available banks. Choose a bank, send your vehicle details to ELAVATE CREWS on WhatsApp, and pay by UPI after the final amount is confirmed.</p><a class="btn" href="#products">Explore FASTag options</a></div></section>
+<section id="products"><div class="wrap"><div class="head"><div class="eyebrow">Choose your bank</div><h2>Available FASTag Banks</h2><p>These are the five FASTag banks currently available from ELAVATE CREWS. Enquire for current availability, charges, eligibility and activation process.</p></div>
+<div class="grid">
+<article class="card"><div class="logo">IDFC</div><h3>IDFC FIRST Bank FASTag</h3><p>Ask our team for current availability and charges.</p><button class="btn" onclick="choose('IDFC FIRST Bank')">Enquire now</button></article>
+<article class="card"><div class="logo">SBI</div><h3>SBI FASTag</h3><p>Request product details and the applicable process.</p><button class="btn" onclick="choose('SBI')">Enquire now</button></article>
+<article class="card"><div class="logo">FED</div><h3>Federal Bank FASTag</h3><p>Check availability, charges and activation requirements.</p><button class="btn" onclick="choose('Federal Bank')">Enquire now</button></article>
+<article class="card"><div class="logo">BOB</div><h3>Bank of Baroda FASTag</h3><p>Contact us to confirm current application details.</p><button class="btn" onclick="choose('Bank of Baroda')">Enquire now</button></article>
+<article class="card"><div class="logo">AXIS</div><h3>Axis Bank FASTag</h3><p>Request details before placing an order.</p><button class="btn" onclick="choose('Axis Bank')">Enquire now</button></article>
+</div><div class="note"><b>Important:</b> Bank names are shown for product identification only. ELAVATE CREWS is not a bank or an official NPCI/NETC website. Sell or issue FASTags only if authorised by the relevant issuer/partner.</div></div></section>
+<section style="background:#edf1f7"><div class="wrap"><div class="head"><div class="eyebrow">Simple process</div><h2>How to order</h2></div><div class="steps">
+<div class="step"><b>1. Choose a FASTag</b><p>Select one of the five available bank options.</p></div><div class="step"><b>2. Send an enquiry</b><p>Share your name, mobile number and vehicle type through WhatsApp.</p></div><div class="step"><b>3. Pay by UPI</b><p>After we confirm the final amount and recipient details, pay using the verified UPI ID or QR shared by ELAVATE CREWS.</p></div></div>
+<div class="paybox" style="margin-top:18px"><b>UPI safety:</b> Your UPI ID/QR has not been added because verified payment details have not been provided. Contact us first and pay only after confirming the amount and recipient name. Never share your UPI PIN or OTP.</div></div></section>
+<section id="order"><div class="wrap"><div class="head"><div class="eyebrow">Get started</div><h2>FASTag order enquiry</h2><p>Fill in the basic details. This form opens WhatsApp. It does not collect payment or issue a FASTag.</p></div>
+<form onsubmit="sendOrder(event)">
+<div><label for="name">Customer name</label><input id="name" required placeholder="Your name"></div>
+<div><label for="mobile">Mobile number</label><input id="mobile" required inputmode="tel" placeholder="Your mobile number"></div>
+<div><label for="bank">FASTag bank</label><select id="bank" required><option value="">Select bank</option><option>IDFC FIRST Bank</option><option>SBI</option><option>Federal Bank</option><option>Bank of Baroda</option><option>Axis Bank</option></select></div>
+<div><label for="vehicle">Vehicle type</label><select id="vehicle" required><option value="">Select vehicle</option><option>Car / Jeep / Van</option><option>LCV</option><option>Bus / Truck</option><option>Other</option></select></div>
+<div class="full"><label for="msg">Message (optional)</label><textarea id="msg" rows="3" placeholder="Your question"></textarea></div>
+<div class="full"><button class="btn" type="submit">Send enquiry on WhatsApp</button><p class="muted" style="font-size:12px">Do not send Aadhaar, PAN, OTP, UPI PIN, card or bank account details in this form.</p></div>
+</form></div></section>
+<footer><div class="wrap foot"><div><div class="brand">ELAVATE <span>CREWS</span></div><p>Multi-bank FASTag enquiry storefront. Product availability and terms depend on the respective issuer.</p></div><div><b>Contact</b><p>WhatsApp: +91 87540 32606<br>Free hosting setup pending</p></div></div></footer>
+<script>
+function choose(bank){document.getElementById('bank').value=bank;document.getElementById('msg').value='I am interested in '+bank+' FASTag. Please share availability and final charges.';document.getElementById('order').scrollIntoView({behavior:'smooth'});}
+function sendOrder(e){e.preventDefault();let customerName=document.getElementById('name').value;let customerMobile=document.getElementById('mobile').value;let selectedBank=document.getElementById('bank').value;let vehicleType=document.getElementById('vehicle').value;let message=document.getElementById('msg').value;let t='FASTag order enquiry - ELAVATE CREWS\nName: '+customerName+'\nCustomer mobile: '+customerMobile+'\nBank: '+selectedBank+'\nVehicle: '+vehicleType+'\nMessage: '+message;window.open('https://wa.me/918754032606?text='+encodeURIComponent(t),'_blank','noopener');}
+</script></body></html>
